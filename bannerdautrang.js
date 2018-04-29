@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://nhakhoadrngoc.vn' target='_blank'><img src='http://nhakhoadrngoc.vn/thumbnail/1366x0/2/upload/photos/c11d6b6ebce342918f6bc4757f15918c_1517802844.jpeg' width='500px'/><br/>răng sứ quận 10</a>. Liên hệ: BS Ngọc 0902767895. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://nhakhoadrngoc.com' target='_blank'><img src='http://nhakhoadrngoc.com/thumbnail/1366x0/2/upload/photos/dr-mai-xuan-ngoc-1366_1524327881.jpg' width='500px'/><br/>răng sứ quận 10</a>. Liên hệ: BS Ngọc 0902767895. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
