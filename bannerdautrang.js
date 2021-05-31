@@ -1,5 +1,3 @@
-//please contact me giaiphapthuonghieu.org@gmail.com
-//website http://giaiphapthuonghieu.vn or http://faceseo.vn
 
 (function($) {
     $.fn.linhnguyen = function(options) {        
@@ -117,7 +115,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://nhakhoadrngoc.com' target='_blank'><img src='http://nhakhoadrngoc.com/thumbnail/1366x0/2/upload/photos/dr-mai-xuan-ngoc-1366_1524327881.jpg' width='500px'/><br/>Nha khoa DR NGỌC quận 10 </a>. Liên hệ: BS Ngọc 0902767895. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://nha-khoa-an-an.blogspot.com/' target='_blank'><img src='https://1.bp.blogspot.com/-TBlek8ins9M/YLREhWsoGdI/AAAAAAAAANo/d6rmXbL0HmQ3gFUOadNU2PPqxVeAZ-nogCLcBGAsYHQ/s320/nha-khoa-an-an-quan-8%2B%25282%2529.png' width='500px'/><br/>Nha khoa An-An Quận 8 </a>. Liên hệ: 028 2232 1255. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
